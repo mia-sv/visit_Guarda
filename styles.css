@@ -15,8 +15,8 @@ body {
     color: #E1EFF6;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-family: 'Bricolage Grotesque', sans-serif;
-    text-shadow: 0 0 3px black;
-    
+    text-shadow: 0 0 5px black;
+    min-height: 100vh;
 }
 
 hr {
@@ -35,24 +35,34 @@ img {
 
 .guide {
     background: #CD8987;
-    margin: 100px 100px;
-    padding: 10px 10px;
+    padding: 20px 20px;
     border-radius: 3px;
     display: flex;
     box-shadow: 0 0 8px #513C2C;
+    max-width: 800px;
+  }
+
+.guide-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 #profile-img {
-    height: 200px;
+    height: 250px;
     margin: auto;
 }
 
 .guide-text {
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 0 60px;
+
 }
 
 #guide-text {
     font-style: italic;
+    align-content: center;
 }
 
 #name {
