@@ -1,0 +1,82 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background-image: linear-gradient(#006E90, #CDACA1);
+    color: #E1EFF6;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-shadow: 0 0 3px black;
+    
+}
+
+hr {
+   border: 1px solid #513C2C;
+   margin: 20px;
+}
+
+img {
+    border-radius: 3px;
+}
+
+.hero-title {
+    font-weight: 2000px;
+}
+
+
+.guide {
+    background: #CD8987;
+    margin: 100px 100px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    display: flex;
+    box-shadow: 0 0 8px #513C2C;
+}
+
+#profile-img {
+    height: 200px;
+    margin: auto;
+}
+
+.guide-text {
+    flex-direction: column;
+}
+
+#guide-text {
+    font-style: italic;
+}
+
+#name {
+    font-family: 'Dawning of a New Day', cursive;
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.activity {
+    width: 150px;
+    margin: 0px 10px;
+
+}
+
+.activity-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.activity:hover {
+   transform: scale(1.5);
+}
